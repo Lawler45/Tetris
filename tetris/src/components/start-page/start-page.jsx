@@ -7,7 +7,7 @@ const StartPage = () => {
       <div className="game-details">
         <div className="game-description-container">
           <h2 className="description-title">Welcome to Tetris</h2>
-          <p>
+          <p className="game-description">
             Tetris is a classic and timeless puzzle video game that challenges
             players to arrange falling blocks of different shapes and sizes to
             create complete lines. As the blocks descend faster and the game
@@ -16,7 +16,9 @@ const StartPage = () => {
             get yourself on the leaderboard!!
           </p>
         </div>
+
         <button className="play-button">Play</button>
+
         <div className="leaderboard-container">
           <h2 className="leaderboard-title">Leaderboard</h2>
           <ol className="leaderboard">
