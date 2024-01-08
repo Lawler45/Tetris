@@ -1,0 +1,61 @@
+.start-page-container {
+  width: 100%;
+  height: 100vh;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.game-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.game-description-container {
+  flex: 1;
+  border-width: 2px;
+  border-color: blue;
+  border-style: solid;
+  margin: 10px;
+}
+
+.description-title {
+  display: flex;
+  justify-content: center;
+}
+
+.play-button {
+  padding: 10px 20px;
+  height: 5vh;
+  border-width: 2px;
+  border-color: orange;
+  border-style: solid;
+}
+
+.leaderboard-container {
+  flex: 1;
+  border-width: 2px;
+  border-color: green;
+  border-style: solid;
+  margin: 10px;
+}
+
+.leaderboard-title {
+  display: flex;
+  justify-content: center;
+}
+
+.leaderboard {
+  padding-left: 50%;
+}
