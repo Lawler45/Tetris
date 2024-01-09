@@ -1,11 +1,31 @@
 .game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: solid 2px white;
   height: 100vh;
+  position: relative;
 }
 
 .board {
-    border: solid 2px white;
-    justify-content: center;
-    align-items: center;
-    
+  border: solid 2px white;
+  height: 70vh;
+  width: 35vh;
+}
+
+.score {
+  font-size: xx-large;
+  position: absolute;
+  top: 12vh;
+  right:35vh ;
+}
+
+.quit-button {
+  height: 5vh;
+  width: 10vh;
+  position: absolute;
+  bottom: 15vh;
+  right: 35vh;
+  font-size: x-large;
+  border-radius: 10px;
 }
