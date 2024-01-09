@@ -1,0 +1,11 @@
+.game-container {
+  border: solid 2px white;
+  height: 100vh;
+}
+
+.board {
+    border: solid 2px white;
+    justify-content: center;
+    align-items: center;
+    
+}
