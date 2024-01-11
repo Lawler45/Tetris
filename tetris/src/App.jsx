@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app">
       <StartPage />
-      <Board />
+      <Board rows={20} columns={10} />
     </div>
   );
 }
