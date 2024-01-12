@@ -18,9 +18,7 @@ const Game = ({ rows, columns }) => {
   };
   return (
     <div className="game-container">
-      <div className="board"></div>
       <Tetris rows={rows} columns={columns} setGameOver={setGameOver} />
-      <p className="score">Score: 0</p>
       <button className="quit-button" onClick={handleQuitButtonClick}>
         Quit
       </button>
