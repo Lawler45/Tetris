@@ -1,8 +1,9 @@
-import "./board.css";
+import "./Game.css";
 import { useNavigate } from "react-router-dom";
 import { useGameOver } from "../../hooks/useGameOver";
+import Tetris from "../Tetris/Tetris";
 
-const Board = ({ rows, columns }) => {
+const Game = ({ rows, columns }) => {
   const navigate = useNavigate();
 
   const handleQuitButtonClick = () => {
@@ -18,6 +19,7 @@ const Board = ({ rows, columns }) => {
   return (
     <div className="game-container">
       <div className="board"></div>
+      <Tetris rows={rows} columns={columns} setGameOver={setGameOver} />
       <p className="score">Score: 0</p>
       <button className="quit-button" onClick={handleQuitButtonClick}>
         Quit
@@ -29,4 +31,4 @@ const Board = ({ rows, columns }) => {
   );
 };
 
-export default Board;
+export default Game;

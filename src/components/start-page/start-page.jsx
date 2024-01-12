@@ -1,4 +1,4 @@
-import Board from "../board/board";
+import Game from "../Game/Game.jsx";
 import "./start-page.css";
 import { useNavigate } from "react-router-dom";
 
