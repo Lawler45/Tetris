@@ -1,6 +1,4 @@
-body {
-  background-color: black;
-}
+
 
 .start-page-container {
   width: 100%;
@@ -11,6 +9,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #406;
+;
 }
 
 .title {
@@ -48,7 +48,7 @@ body {
   padding: 10px;
 }
 
-.play-button {
+Button {
   padding: 10px 20px;
   height: 5vh;
   border-width: 2px;

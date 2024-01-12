@@ -1,20 +1,14 @@
 import Game from "../Game/Game.jsx";
 import "./start-page.css";
-import { useNavigate } from "react-router-dom";
 
-const StartPage = () => {
-  const navigate = useNavigate();
-
-  const handlePlayButtonClick = () => {
-    navigate("/game");
-  };
+const StartPage = ({ onClick }) => {
 
   return (
     <div className="start-page-container">
       <h1 className="title">Tetris</h1>
       <div className="game-details">
         <div className="game-description-container">
-          <h2 className="description-title">Welcome to Tetris</h2>yyyv b
+          <h2 className="description-title">Welcome to Tetris</h2>
           <p className="game-description">
             Tetris is a classic and timeless puzzle video game that challenges
             players to arrange falling blocks of different shapes and sizes to
@@ -25,7 +19,7 @@ const StartPage = () => {
           </p>
         </div>
 
-        <button className="play-button" onClick={handlePlayButtonClick}>
+        <button className="Button" onClick={onClick}>
           Play
         </button>
 
