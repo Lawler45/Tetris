@@ -10,7 +10,7 @@ const Tetris = ({ rows, columns, setGameOver }) => {
 
   return (
     <div className="Tetris">
-      <Board board={board} />;
+      <Board board={board} />
       <GameStats gameStats={gameStats} />
     </div>
   );
